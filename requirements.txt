@@ -1,7 +1,6 @@
 pip>=9
 setuptools>=26
 wheel>=0.29
-pandas
 pytest
 coverage
 flake8
@@ -12,7 +11,7 @@ twine
 six==1.14.0
 numpy==1.18.5
 pandas
-scikit-learn==0.22
+scikit-learn
 joblib
 memoized-property
 mlflow

@@ -16,6 +16,15 @@ TaxiFareModel.egg-info/SOURCES.txt
 TaxiFareModel.egg-info/dependency_links.txt
 TaxiFareModel.egg-info/requires.txt
 TaxiFareModel.egg-info/top_level.txt
+TaxiFareModel/__pycache__/__init__.cpython-38.pyc
+TaxiFareModel/__pycache__/data.cpython-38.pyc
+TaxiFareModel/__pycache__/encoders.cpython-38.pyc
+TaxiFareModel/__pycache__/gcp.cpython-38.pyc
+TaxiFareModel/__pycache__/params.cpython-38.pyc
+TaxiFareModel/__pycache__/trainer.cpython-38.pyc
+TaxiFareModel/__pycache__/utils.cpython-38.pyc
 api/__init__.py
 api/fast.py
+api/__pycache__/__init__.cpython-38.pyc
+api/__pycache__/fast.cpython-38.pyc
 notebooks/API usage.ipynb
