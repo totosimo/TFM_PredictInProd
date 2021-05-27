@@ -15,7 +15,7 @@ def get_data_from_gcp(nrows=10000, optimize=False, **kwargs):
     return df
 
 def clean_data(df, test=False):
-    df = df.drop(axis=1, columns=["Unnamed: 0"])
+    # df = df.drop(axis=1, columns=["Unnamed: 0"])
     df = df.dropna(how='any', axis='rows')
     df = df[(df.dropoff_latitude != 0) | (df.dropoff_longitude != 0)]
     df = df[(df.pickup_latitude != 0) | (df.pickup_longitude != 0)]
